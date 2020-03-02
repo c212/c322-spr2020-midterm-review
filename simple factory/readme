@@ -3,14 +3,15 @@ factory). Some authors state that Simple Factory is more of an object oriented p
 
 abstract class Gearbox
 
+public class AutomaticGearbox extends Gearbox
+public class ManualGearbox extends Gearbox
+
 public class GearboxFactory {
   public enum Type { AUTOMATIC, MANUAL}; 
-  public static Gearbox create(Type type) { ... }
+  public static Gearbox create(Type type) { 
+    // creates and returns the right kinds of objects
+  }
 }
-
-public class AutomaticGearbox extends Gearbox
-
-public class ManualGearbox extends Gearbox
 
 in Client: 
              Gearbox auto = GearboxFactory.create(GearboxFactory.Type.AUTOMATIC);
