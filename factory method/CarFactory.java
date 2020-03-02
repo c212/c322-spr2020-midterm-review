@@ -1,7 +1,5 @@
 package chapter04;
-
 import chapter01.*;
-
 public class CarFactory extends VehicleFactory {
     protected Vehicle selectVehicle(DrivingStyle style) {
         if (style == DrivingStyle.ECONOMICAL) {
