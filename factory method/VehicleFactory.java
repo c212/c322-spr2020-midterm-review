@@ -1,7 +1,5 @@
 package chapter04;
-
 import chapter01.*;
-
 public abstract class VehicleFactory {
     public enum Category {CAR, VAN}
     public enum DrivingStyle {ECONOMICAL, MIDRANGE, POWERFUL};
