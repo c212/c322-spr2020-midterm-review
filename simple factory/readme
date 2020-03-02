@@ -1,4 +1,2 @@
-The Simple Factory pattern is a commonly used simplified means of delegating 
-the instantiation of objects to a specific class (the factory). Some authors
-state that Simple Factory is more of an object oriented programming idiom rather
-than a full-fledged pattern. 
+The Simple Factory pattern is a commonly used simplified means of delegating the instantiation of objects to a specific class (the 
+factory). Some authors state that Simple Factory is more of an object oriented programming idiom rather than a full-fledged pattern. 
