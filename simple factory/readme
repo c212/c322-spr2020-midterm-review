@@ -1,18 +1,2 @@
 The Simple Factory pattern is a commonly used simplified means of delegating the instantiation of objects to a specific class (the 
 factory). Some authors state that Simple Factory is more of an object oriented programming idiom rather than a full-fledged pattern. 
-
-abstract class Gearbox
-
-public class AutomaticGearbox extends Gearbox
-public class ManualGearbox extends Gearbox
-
-public class GearboxFactory {
-  public enum Type { AUTOMATIC, MANUAL}; 
-  public static Gearbox create(Type type) { 
-    // creates and returns the right kinds of objects
-  }
-}
-
-in Client: 
-   Gearbox auto = GearboxFactory.create(GearboxFactory.Type.AUTOMATIC);
-   Gearbox manual = GearboxFactory.create(GearboxFactory.Type.MANUAL);
